@@ -8,7 +8,9 @@ repository.workspace    = true
 authors.workspace       = true
 
 [dependencies]
+displaydoc.workspace    = true
 regex-syntax.workspace  = true
+thiserror.workspace     = true
 
 [lints]
 workspace               = true

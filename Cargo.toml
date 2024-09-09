@@ -46,7 +46,9 @@ ngram-index             = { path = "index/" }
 ngram-query             = { path = "query/" }
 ngram-watcher           = { path = "watcher/" }
 
+displaydoc              = "0.2.5"
 regex-syntax            = "0.8.4"
+thiserror               = "1.0.63"
 
 [workspace.package]
 edition                 = "2021"
