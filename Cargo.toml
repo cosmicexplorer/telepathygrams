@@ -26,11 +26,13 @@ workspace               = true
 members                 = [
   "./",
   "index/",
+  "query/",
   "watcher/",
 ]
 default-members         = [
   "./",
   "index/",
+  "query/",
   "watcher/",
 ]
 resolver                = "2"
@@ -41,6 +43,7 @@ release                 = { opt-level = 3, debug = true }
 
 [workspace.dependencies]
 ngram-index             = { path = "index/" }
+ngram-query             = { path = "query/" }
 ngram-watcher           = { path = "watcher/" }
 
 regex-syntax            = "0.8.4"

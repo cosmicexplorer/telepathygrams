@@ -19,7 +19,14 @@
 - find offsets for literals
 
 * query for literal substrings
+- in [[file:query/src/lib.rs][ngram-query crate]]
+
+** extract literal substrings
 - extract [[https://docs.rs/regex-syntax/latest/regex_syntax/hir/struct.Literal.html][literals from regex-syntax HIR]]
+- configure min length of literals?
+
+** seed regex search
+- use the offsets to seed a regex search (parallel?)
 
 * watch filesystem and recompute
 
