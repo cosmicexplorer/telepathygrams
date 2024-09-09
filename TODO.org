@@ -1,0 +1,9 @@
+#+TITLE: telepathygrams
+#+STARTUP: showall
+#+TODO: UNCLEAR RESEARCH PLAUSIBLE PROOFOFCONCEPT FEASIBLE MAINTAINABLE | TODO DONE
+
+* TODO Beat ripgrep by cheating! [0/3]
+
+- [ ] compile n-gram indices of source code files
+- [ ] use those for literal substrings of a regex pattern
+- [ ] watch a directory for changes and recompute n-grams offline!
