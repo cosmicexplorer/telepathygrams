@@ -14,7 +14,9 @@ path                    = "src/main.rs"
 doc                     = false
 
 [dependencies]
+ngram-index.workspace   = true
 
+# regex-syntax.workspace  = true
 
 [lints]
 workspace               = true
@@ -23,9 +25,11 @@ workspace               = true
 [workspace]
 members                 = [
   "./",
+  "ngram-index/",
 ]
 default-members         = [
   "./",
+  "ngram-index/",
 ]
 resolver                = "2"
 
@@ -34,6 +38,9 @@ dev                     = { opt-level = 0, debug = true }
 release                 = { opt-level = 3, debug = true }
 
 [workspace.dependencies]
+ngram-index             = { path = "ngram-index/" }
+
+regex-syntax            = "0.8.4"
 
 [workspace.package]
 edition                 = "2021"
