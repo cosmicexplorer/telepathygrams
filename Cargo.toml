@@ -25,11 +25,13 @@ workspace               = true
 [workspace]
 members                 = [
   "./",
-  "ngram-index/",
+  "index/",
+  "watcher/",
 ]
 default-members         = [
   "./",
-  "ngram-index/",
+  "index/",
+  "watcher/",
 ]
 resolver                = "2"
 
@@ -38,7 +40,8 @@ dev                     = { opt-level = 0, debug = true }
 release                 = { opt-level = 3, debug = true }
 
 [workspace.dependencies]
-ngram-index             = { path = "ngram-index/" }
+ngram-index             = { path = "index/" }
+ngram-watcher           = { path = "watcher/" }
 
 regex-syntax            = "0.8.4"
 

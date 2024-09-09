@@ -7,6 +7,10 @@ name = "ngram-index"
 version = "0.0.0"
 
 [[package]]
+name = "ngram-watcher"
+version = "0.0.0"
+
+[[package]]
 name = "telepathygrams"
 version = "0.0.0"
 dependencies = [
